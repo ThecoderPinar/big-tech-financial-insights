@@ -4,6 +4,7 @@ Bu proje, büyük teknoloji şirketlerinin hisse senedi verilerini analiz etmek 
 
 ## 📁 Proje Yapısı
 
+```text
 big_tech_financial_insights/
 ├── dashboard/
 │ ├── app.py
@@ -18,7 +19,7 @@ big_tech_financial_insights/
 │ └── processed_stock_data.csv
 ├── requirements.txt
 └── README.md
-
+```
 
 ## 🚀 Başlangıç
 
@@ -33,50 +34,52 @@ pip install -r requirements.txt
 ```
 
 Streamlit uygulamasını çalıştırmak için:
+
 ```bash
 streamlit run dashboard/app.py
 ```
 
 Otomatik raporları oluşturmak için:
+
 ```bash
 python scripts/report_generator.py
 ```
 
-## 📈 Özellikler
+### 📈 Özellikler
 
-**Zaman Serisi Analizi**
+#### Zaman Serisi Analizi
 
 Büyük teknoloji şirketlerinin hisse senedi fiyat verilerini analiz ederek gelecekteki fiyat hareketlerini tahmin etmeyi amaçlıyoruz. ARIMA ve GARCH modelleri kullanılarak fiyat ve volatilite tahminleri yapılmaktadır.
 
-**Volatilite Modellemesi**
+#### Volatilite Modellemesi
 
 GARCH modelleri ile hisse senedi fiyat volatilitesini modelleyebilir ve tahmin edebiliriz.
 
-**Makroekonomik Göstergeler**
+#### Makroekonomik Göstergeler
 
 Faiz oranları ve enflasyon gibi makroekonomik verilerin hisse senedi fiyatları üzerindeki etkilerini modelleyebiliriz.
 
-**Otomatik Alım Satım ve Robo-Danışmanlık**
+#### Otomatik Alım Satım ve Robo-Danışmanlık
 
 Otomatik alım satım algoritmaları geliştirip, kişiselleştirilmiş yatırım önerileri sunan robo-danışmanlık hizmetleri oluşturabiliriz.
 
-**Model Açıklanabilirliği**
+#### Model Açıklanabilirliği
 
 SHAP veya LIME gibi tekniklerle makine öğrenimi model kararlarını açıklayıp, modellerdeki önyargıları analiz edebiliriz.
 
-**Blok Zinciri ve Kripto Paralar**
+#### Blok Zinciri ve Kripto Paralar
 
 Kripto para piyasaları için analiz ve tahmin modelleri geliştirip, finansal analizlerde blok zinciri teknolojisi ve akıllı sözleşmeleri kullanabiliriz.
 
-**Görselleştirme ve Panolar**
+#### Görselleştirme ve Panolar
 
 Etkileşimli panolar oluşturup, fiyat trendlerini ve tahmin analizlerini görselleştirebiliriz.
 
-**📊 Etkileşimli Panolar**
+#### 📊 Etkileşimli Panolar
 
 Streamlit kullanılarak oluşturulan etkileşimli panolar sayesinde hisse senedi verilerini analiz edebilir, farklı dönemlerdeki fiyat değişimlerini inceleyebilir ve gelecekteki fiyat hareketlerini tahmin edebilirsiniz.
 
-**📑 Raporlama**
+#### 📑 Raporlama
 
 Günlük, haftalık ve aylık raporlar oluşturularak hisse senedi fiyatlarının detaylı analizleri yapılmaktadır. Raporlar, Jinja2 kullanılarak HTML formatında oluşturulmaktadır.
 
@@ -84,5 +87,5 @@ Günlük, haftalık ve aylık raporlar oluşturularak hisse senedi fiyatlarını
 
 Bu projede kullanılan veri setleri, büyük teknoloji şirketlerinin hisse senedi fiyat verilerini içermektedir:
 
-1. [ ] big_tech_companies.csv: Büyük teknoloji şirketlerinin hisse senedi sembolleri ve şirket isimleri.
-2. [ ] big_tech_stock_prices.csv: Büyük teknoloji şirketlerinin tarihsel hisse senedi fiyat verileri.
+1. big_tech_compaies.csv: Büyük teknoloji şirketlerinin hisse senedi sembolleri ve şirket isimleri.
+2. big_tech_stock_prices.csv: Büyük teknoloji şirketlerinin tarihsel hisse senedi fiyat verileri.
