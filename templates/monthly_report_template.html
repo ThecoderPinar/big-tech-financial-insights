@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monthly Report</title>
+</head>
+<body>
+    <h1>Monthly Stock Report</h1>
+    <table border="1">
+        <tr>
+            <th>Stock Symbol</th>
+            <th>Date</th>
+            <th>Open</th>
+            <th>High</th>
+            <th>Low</th>
+            <th>Close</th>
+            <th>Volume</th>
+        </tr>
+        {% for record in data %}
+        <tr>
+            <td>{{ record.stock_symbol }}</td>
+            <td>{{ record.date }}</td>
+            <td>{{ record.open }}</td>
+            <td>{{ record.high }}</td>
+            <td>{{ record.low }}</td>
+            <td>{{ record.close }}</td>
+            <td>{{ record.volume }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
