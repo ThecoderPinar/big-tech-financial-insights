@@ -4,3 +4,4 @@ streamlit~=1.36.0
 plotly~=5.22.0
 statsmodels~=0.14.2
 arch~=7.0.0
+streamlit-option-menu
