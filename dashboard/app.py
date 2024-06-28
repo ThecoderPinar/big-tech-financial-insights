@@ -607,7 +607,7 @@ elif selected == "Geliştirici Bilgisi":
     st.title('Geliştirici Bilgisi')
     st.markdown("""
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" alt="Developer Photo" width="150">
+                    <img src="https://avatars.githubusercontent.com/u/107423523?v=4" alt="Developer Photo" width="150">
                     <h2>Pinar Topuz</h2>
                     <p>Veri Bilimi ve Makine Öğrenimi Uzmanı</p>
                     <p>Lise Mezunu Geliştiri</p>
